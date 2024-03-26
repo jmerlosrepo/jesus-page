@@ -1,0 +1,133 @@
+{
+  "aboutMe": {
+    "greet": "¡Hola! Soy Jesús René Merlos Galván, un apasionado del desarrollo de aplicaciones web con una amplia experiencia en el campo. Obtuve mi Licenciatura en Informática de la Universidad La Salle en México, graduándome en el período comprendido entre 2001 y 2005.",
+    "paragraphs": [
+      "Desde entonces, mi trayectoria profesional se ha centrado en el desarrollo de aplicaciones web, donde he trabajado con una variedad de tecnologías como HTML5, JavaScript, .NET, PHP, y React, entre otras. Mi dedicación a explorar y dominar diferentes tecnologías me ha permitido participar en proyectos diversos y desafiantes, donde he contribuido con soluciones innovadoras y de calidad.",
+      "Mi pasión por la tecnología y el desarrollo web me impulsa constantemente a mantenerme actualizado con las últimas tendencias y herramientas del sector, buscando siempre mejorar mis habilidades y conocimientos para ofrecer el mejor valor en cada proyecto en el que participo.",
+      "¡Estoy emocionado por seguir creciendo profesionalmente y enfrentar nuevos desafíos en el apasionante mundo del desarrollo de aplicaciones web!"
+    ]
+  },
+  "career": {
+    "careerIntro": "¡Bienvenido a mi trayectoria profesional! A lo largo de los años, he tenido el privilegio de trabajar en diversos roles y proyectos que han enriquecido mi experiencia y habilidades. Aquí te presento un resumen de mis empleos anteriores, cada uno de los cuales ha contribuido a mi crecimiento y desarrollo como profesional:",
+    "jobHistory": [
+      {
+        "title": "Senior Software Engineer",
+        "companyName": "Globant",
+        "location": "Atlanta GA, USA",
+        "startDate": "2022",
+        "endDate": "",
+        "description": [
+          "Trabajé en Paramount+ en proyectos utilizando React, abordando tickets y realizando mejoras continuas en la aplicación."
+        ]
+      },
+      {
+        "title": "Senior Associate",
+        "companyName": "Cognizant",
+        "location": "Atlanta GA, USA",
+        "startDate": "2020",
+        "endDate": "2021",
+        "description": [
+          "En CapitalOne, colaboré en el desarrollo de su aplicación de venta de autos en línea utilizando React, generando nuevo contenido, resolviendo tickets y realizando otras tareas relacionadas.",
+          "También trabajé en US Bank en su aplicación bancaria principal, contribuyendo con mejoras utilizando React."
+        ]
+      },
+      {
+        "title": "Full Stack Engineer",
+        "companyName": "AllianceIT Inc",
+        "location": "Denver CO, USA",
+        "startDate": "2019",
+        "endDate": "2020",
+        "description": [
+          "Colaboré con Comcast Business, trabajando en proyectos de comunicaciones tipo Zoom utilizando React"
+        ]
+      },
+      {
+        "title": "Nodejs Developer",
+        "companyName": "Globant",
+        "location": "Mexico City, MX",
+        "startDate": "2018",
+        "endDate": "2019",
+        "description": [
+          "Desarrollé nuevas funcionalidades y brindé mantenimiento a diversas aplicaciones web de clientes utilizando tecnologías JavaScript como Nodejs, Reactjs, Redux y Vuejs."
+        ]
+      },
+      {
+        "title": "Software Engineer",
+        "companyName": "SSA México S.A. de C.V.",
+        "location": "Mexico City, MX",
+        "startDate": "2016",
+        "endDate": "2018",
+        "description": [
+          "Desarrollé nuevas funcionalidades para la aplicación web SCAP de SSA utilizando tecnologías como Microsoft ASP.Net, C#, JavaScript, servicios web, AngularJS y Spring."
+        ]
+      },
+      {
+        "title": "Oracle 11g Developer",
+        "companyName": "Developware S.A. de C.V.",
+        "location": "Mexico City, MX",
+        "startDate": "2013",
+        "endDate": "2016",
+        "description": [
+          "Desarrollé nuevas aplicaciones con tecnologías .Net y bases de datos Oracle 11g para clientes como Bank of Tokyo Mitsubishi, Secretaría de Economía de México (SE), General Electric y Grupo Finmart."
+        ]
+      },
+      {
+        "title": "Web UI Developer",
+        "companyName": "Unicersidad Panamericana UP",
+        "location": "Mexico City, MX",
+        "startDate": "2010",
+        "endDate": "2013",
+        "description": [
+          "Desarrollé y mantuve el sitio web principal de la universidad utilizando tecnologías .Net.",
+          "Además, desarrollé un nuevo sistema multimedia para gestionar anuncios en pantalla y un sitio de pagos en línea."
+        ]
+      },
+      {
+        "title": ".Net Developer",
+        "companyName": "Landsteiner Scientific S.A. de C.V.",
+        "location": "Mexico City, MX",
+        "startDate": "2008",
+        "endDate": "2010",
+        "description": [
+          "Desarrollé y mantuve aplicaciones web con tecnologías .Net, además de gestionar servidores web IIS 6 y servidores de bases de datos."
+        ]
+      },
+      {
+        "title": "Tech Support and Developer",
+        "companyName": "Ghetto Arquitectos S.A. de C.V.",
+        "location": "Mexico City, MX",
+        "startDate": "2006",
+        "endDate": "2008",
+        "description": [
+          "Gestioné y brindé mantenimiento a servidores Windows y equipos Mac. Además, desarrollé el sitio web principal de la empresa y un sistema de gestión de tickets de soporte técnico."
+        ]
+      }
+    ]
+  },
+  "portfolio": {
+    "portfolioIntro": [
+      "¡Bienvenido a mi portafolio! En esta sección, encontrarás una selección de proyectos personales y profesionales que he desarrollado a lo largo de mi carrera como ingeniero de software. Desde aplicaciones web hasta proyectos de software más complejos, cada proyecto representa un desafío único y una oportunidad para aplicar mis habilidades y conocimientos en el mundo del desarrollo de software.",
+      "Cada proyecto refleja mi pasión por la innovación, la resolución de problemas y la búsqueda de la excelencia técnica. Estoy emocionado de compartir estos proyectos contigo y espero que encuentres inspiración en ellos.",
+      "Explora cada proyecto para obtener más detalles sobre su propósito, tecnologías utilizadas, y los desafíos superados durante su desarrollo. Si tienes alguna pregunta o estás interesado en colaborar en futuros proyectos, ¡no dudes en ponerte en contacto conmigo!",
+      "¡Disfruta explorando mi portafolio y descubriendo el mundo de la ingeniería de software a través de mis proyectos!"
+    ],
+    "projects": [
+      {
+        "title": "Proyecto 1",
+        "technologies": [
+          "javascript",
+          "react",
+          "nodejs",
+          "typescript",
+          "redux"
+        ],
+        "description": "Estee s un proyecto",
+        "images": [
+          "https://academy.avast.com/hs-fs/hubfs/New_Avast_Academy/how_to_hide_apps_on_android_academy_refresh/img-01.png?width=1000&height=744&name=img-01.png",
+          "https://academy.avast.com/hs-fs/hubfs/New_Avast_Academy/how_to_hide_apps_on_iphone_academy_rx/img-05.png?width=600&height=627&name=img-05.png"
+        ],
+        "gitUrl": "https://github.com/mosh-hamedani"
+      }
+    ]
+  }
+}

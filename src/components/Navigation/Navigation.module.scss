@@ -1,0 +1,41 @@
+@import "../../imports";
+
+.topSpacing {
+  @include topSpacing;
+}
+
+.navList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  .userCompleteName {
+    font-weight: bolder;
+  }
+  .userTitle {
+    color: $midGrey;
+  }
+  .contactInfo {
+    color: $red;
+  }
+  .navListItem {
+    text-align: center;
+  }
+  li {
+    margin: 0;
+    padding: 0;
+    .navListLink {
+      text-decoration: none;
+      background-color: $grey;
+      color: $white;
+      text-align: center;
+      padding: 10px;
+      display: block;
+      @media (max-width: 600px) {
+        padding: 20px;
+      }
+      &:hover {
+        background-color: $clearGrey;
+      }
+    }
+  }
+}

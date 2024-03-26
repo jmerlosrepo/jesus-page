@@ -1,0 +1,30 @@
+@import "../../imports";
+
+.imageCarouselContainer {
+  @include flexRow;
+  justify-content: center;
+  button {
+    font-size: 24px;
+    font-weight: bolder;
+    border: none;
+    background: none;
+    outline: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  .enabledButton {
+    color: $red;
+  }
+  .disabledButton {
+    color: $midGrey !important;
+  }
+  .imageFrame {
+    display: block;
+    min-width: 45rem;
+    min-height: 35rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

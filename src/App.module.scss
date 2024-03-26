@@ -1,0 +1,43 @@
+@import "./imports";
+
+body,
+html {
+  @include resetMarginAndPadding;
+  background-color: $black;
+  @media (max-width: 600px) {
+    font-size: 1.2rem;
+  }
+}
+
+.container {
+  @include maxWidthAndHeight;
+  @include flexRow;
+  overflow: hidden;
+  overflow-y: visible;
+  margin: 0;
+  padding: 2rem;
+  .navigationContainer {
+    width: 30vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .contentContainer {
+    width: 75vw;
+    padding: 1rem;
+  }
+
+  @media (max-width: 600px) {
+    @include flexColumn;
+    padding: 0;
+    overflow: visible;
+    overflow-x: hidden;
+    .navigationContainer {
+      order: 1;
+      width: 100%;
+    }
+    .contentContainer {
+      order: 2;
+      width: 100%;
+    }
+  }
+}

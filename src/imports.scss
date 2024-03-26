@@ -1,0 +1,37 @@
+$white: #fff;
+$black: #000;
+$grey: #242423;
+$clearGrey: #2b2b2a;
+$midGrey: #8a8787;
+$red: #750202;
+
+@mixin cardHeader {
+  border-bottom: 2px solid $grey;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+@mixin maxWidthAndHeight {
+  width: 100vw;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+@mixin flexRow {
+  display: flex;
+  flex-direction: row;
+}
+
+@mixin flexColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin resetMarginAndPadding {
+  margin: 0;
+  padding: 0;
+}
+
+@mixin topSpacing {
+  margin-top: 1.5rem !important;
+}

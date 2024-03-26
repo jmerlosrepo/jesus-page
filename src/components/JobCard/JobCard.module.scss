@@ -1,0 +1,24 @@
+@import "../../imports.scss";
+
+.jobCard {
+  display: block;
+  margin-bottom: 30px;
+  h3 {
+    @include cardHeader;
+  }
+  h4 {
+    margin: 0;
+    padding: 0;
+    color: $red;
+    font-weight: bolder;
+  }
+  .jobCardDates {
+    display: inline;
+    font-size: 0.8rem;
+  }
+  .jobCardLocation {
+    display: inline;
+    font-size: 0.8rem;
+    margin-left: 10px;
+  }
+}

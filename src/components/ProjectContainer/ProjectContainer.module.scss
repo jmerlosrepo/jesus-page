@@ -1,0 +1,21 @@
+@import "../../imports";
+
+.projectContainer {
+  .repoUrl {
+    @include flexRow;
+    align-items: center;
+    justify-items: center;
+    a {
+      color: $red;
+    }
+  }
+  .icon {
+    width: 2rem;
+    height: 2rem;
+    margin: 10px;
+  }
+
+  .projectTitle {
+    @include cardHeader;
+  }
+}
